@@ -1,0 +1,71 @@
+body{
+	margin-top: 60px;
+	background-color: #000;
+}
+.navbar {
+	overflow: hidden;
+	background-color: #1B2A41;
+	position: fixed;
+	padding: 0px 0px;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	color: #a0a0d0;
+	text-align: left;
+	padding: 16px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.main {
+	text-align: center;
+	padding: 0px 16px;
+}
+
+.mainh1 {
+	text-align: center;
+	padding: 0px 16px;
+	color:#125E8A;
+}
+
+@keyframes glow {
+	from {
+		box-shadow: 0 0 0.1vw #fff, 0 0 0.2vw #fff, 0 0 0.3vw #fff, 0 0 0.5vw #228DFF, 0 0 0.7vw #228DFF, 0 0 0.8vw #228DFF, 0 0 1vw #228DFF, 0 0 1.2vw #228DFF;
+	}
+	to {
+		box-shadow: 0 0 0.3vw #fff, 0 0 0.6vw #fff, 0 0 0.9vw #fff, 0 0 1.2vw #228DFF, 0 0 2.0vw #228DFF, 0 0 2.4vw #228DFF, 0 0 2.8vw #228DFF, 0 0 3.2vw #228DFF;
+	}
+}
+@keyframes glowgreen {
+	from {
+		text-shadow: 0 0 0.1vw #fff, 0 0 0.2vw #fff, 0 0 0.3vw #fff, 0 0 0.4vw green, 0 0 0.5vw green, 0 0 0.6vw green, 0 0 0.7vw green, 0 0 0.8vw green;
+	}
+	to {
+		text-shadow: 0 0 0.2vw #fff, 0 0 0.3vw #fff, 0 0 0.4vw #fff, 0 0 0.5vw green, 0 0 0.6vw green, 0 0 0.7vw green, 0 0 0.8vw green, 0 0 0.9vw green;
+	}
+}
+@keyframes fall {
+	from {
+		top: 0vh;
+		text-shadow: 0 0 0.1vw #fff, 0 0 0.2vw #fff, 0 0 0.3vw #fff, 0 0 0.5vw green, 0 0 0.7vw green, 0 0 0.8vw green, 0 0 1vw green, 0 0 1.2vw green;
+
+	}
+	to {
+		top: 100vh;
+		text-shadow: 0 0 0.3vw #fff, 0 0 0.6vw #fff, 0 0 0.9vw #fff, 0 0 1.2vw green, 0 0 2.0vw green, 0 0 2.4vw green, 0 0 2.8vw green, 0 0 3.2vw green;
+		
+	}
+}
+@keyframes fall2 {
+	from {
+		top: -100vh;
+	}
+	to {
+		top: 0vh;	
+	}
+}
