@@ -19,7 +19,7 @@ else {
 	      document.write(xhr.responseText + "<br>");
 	      document.write("test0:"+ "<br>");
 
-	      document.write("test4:" + myObj.dateTime + "<br>");
+	      document.write("test5:" + myObj[0].dateTime + "<br>");
 	      //document.write("test2:" + myArray.activities-heart + "<br>");
 
 	   }
