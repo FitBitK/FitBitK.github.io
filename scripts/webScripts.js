@@ -10,7 +10,7 @@ else {
 	//console.log(access_token);
 	//console.log(userId);
 	var xhr = new XMLHttpRequest();
-	xhr.open('GET', 'http://api.fitbit.com/1/user/'+ userId +'/activities/heart/date/today/1w.json');
+	xhr.open('GET', 'https://api.fitbit.com/1/user/'+ userId +'/activities/heart/date/today/1w.json');
 	xhr.setRequestHeader("Authorization", 'Bearer ' + access_token);
 	xhr.onload = function() {
 	   if (xhr.status === 200) {
