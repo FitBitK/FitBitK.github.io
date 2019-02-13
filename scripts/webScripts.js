@@ -17,6 +17,7 @@ else {
 	      var myArray = JSON.parse(xhr.responseText);
 	      document.write(myArray[0]);
 	      document.write(myArray[0].name);
+	      document.write(myArray[0]);
 
 	   }
 	};
