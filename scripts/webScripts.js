@@ -16,6 +16,7 @@ else {
 	xhr.onload = function() {
 	   if (xhr.status === 200) {
 	      var myArray = JSON.parse(xhr.responseText);
+	      document.write(xhr.responseText + "<br>");
 	      document.write("test0:"+ "<br>");
 
 	      document.write("test3:" + myArray[0] + "<br>");
