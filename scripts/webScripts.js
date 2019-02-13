@@ -16,7 +16,7 @@ else {
 	   if (xhr.status === 200) {
 	      var myObj = JSON.parse(xhr.responseText);
 	      document.write(myObj[0]);
-	      document.write(myObj.name);
+	      document.write(myObj);
 
 	   }
 	};
