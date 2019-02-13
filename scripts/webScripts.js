@@ -17,7 +17,7 @@ else {
 	      var myArray = JSON.parse(xhr.responseText);
 	      document.write("test0:"+ "<br>");
 
-	      document.write("test2:" + myArray[0] + "<br>");
+	      document.write("test3:" + myArray[0] + "<br>");
 	      document.write("test3:" + myArray + "<br>");
 	      document.write("test2:" + myArray.activities-heart + "<br>");
 
