@@ -17,9 +17,11 @@ else {
 	   if (xhr.status === 200) {
 	      var myObj = JSON.parse(xhr.responseText);
 	      document.write(xhr.responseText + "<br>");
+
+ 
 	      document.write("test0:"+ "<br>");
 
-	      document.write("test5:" + myObj[0].dateTime + "<br>");
+	      document.write("test5:" + myObj.["activities-steps"] + "<br>");
 	      //document.write("test2:" + myArray.activities-heart + "<br>");
 
 	   }
