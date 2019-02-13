@@ -10,7 +10,7 @@ else {
 	//console.log(access_token);
 	//console.log(userId);
 	var xhr = new XMLHttpRequest();
-	GET https://api.fitbit.com/1/user/[user-id]/body/log/[goal-type]/goal.json
+	//GET https://api.fitbit.com/1/user/[user-id]/body/log/[goal-type]/goal.json
 	xhr.open('GET', 'https://api.fitbit.com/1/user/'+ userId +'/body/log/weight/goal.json');
 	xhr.setRequestHeader("Authorization", 'Bearer ' + access_token);
 	xhr.onload = function() {
