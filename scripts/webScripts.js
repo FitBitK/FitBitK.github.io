@@ -15,12 +15,11 @@ else {
 	xhr.setRequestHeader("Authorization", 'Bearer ' + access_token);
 	xhr.onload = function() {
 	   if (xhr.status === 200) {
-	      var myArray = JSON.parse(xhr.responseText);
+	      var myObj = JSON.parse(xhr.responseText);
 	      document.write(xhr.responseText + "<br>");
 	      document.write("test0:"+ "<br>");
 
-	      document.write("test3:" + myArray[0] + "<br>");
-	      document.write("test3:" + myArray + "<br>");
+	      document.write("test3:" + myObj.goal + "<br>");
 	      //document.write("test2:" + myArray.activities-heart + "<br>");
 
 	   }
