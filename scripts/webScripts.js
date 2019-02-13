@@ -17,9 +17,9 @@ else {
 	      var myArray = JSON.parse(xhr.responseText);
 	      document.write("test0:"+ "\n");
 
-	      document.write("test1:" + myArray[0] + "\n");
-	      document.write("test2:" + myArray[0].name + "\n");
-	      document.write("test3:" + myArray[0] + "\n");
+	      document.write("test1:" + myArray[0] + "<br>");
+	      document.write("test2:" + myArray.activities-heart + "<br>");
+	      document.write("test3:" + myArray + "<br>");
 
 	   }
 	};
