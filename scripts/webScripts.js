@@ -21,7 +21,7 @@ else {
  
 	      document.write("test0:"+ "<br>");
 
-	      document.write("test5:" + myObj.["activities-steps"] + "<br>");
+	      document.write("test5:" + myObj["activities-steps"] + "<br>");
 	      //document.write("test2:" + myArray.activities-heart + "<br>");
 
 	   }
